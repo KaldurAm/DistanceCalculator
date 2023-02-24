@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F743575D-6920-4468-B32C-E81E46A678DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.Api", "src\DistanceCalculator.Api\DistanceCalculator.Api.csproj", "{9093A25F-C23C-41CB-8754-AB735E53F399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.Core", "src\DistanceCalculator.Core\DistanceCalculator.Core.csproj", "{E74A3E55-503C-4151-B7B4-A3F8A30A11AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.Infrastructure", "src\DistanceCalculator.Infrastructure\DistanceCalculator.Infrastructure.csproj", "{D8D6E842-10B8-4CA5-97B5-019574262476}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D40DA6E8-5092-4234-AC05-59F8C109A857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.ArchitectureTests", "tests\DistanceCalculator.ArchitectureTests\DistanceCalculator.ArchitectureTests.csproj", "{09E6E655-F845-4641-8505-42DA9D323844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.UnitTests", "tests\DistanceCalculator.UnitTests\DistanceCalculator.UnitTests.csproj", "{615A25DD-14C2-42EE-B3A4-34C86F750D9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{9F5A6CE3-0CD1-4272-B686-9AC9FEF3CE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.Evaluator", "components\DistanceCalculator.Evaluator\DistanceCalculator.Evaluator.csproj", "{F77FE8B5-7D09-4D0F-84FB-9C2E7026B3B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.Results", "components\DistanceCalculator.Results\DistanceCalculator.Results.csproj", "{3AF1D535-15C0-4AC0-8F07-CB6C3E49B9E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.ValueObjects", "components\DistanceCalculator.ValueObjects\DistanceCalculator.ValueObjects.csproj", "{021325CB-30A2-4733-B90A-A86F7E6AA16C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculator.Contracts", "components\DistanceCalculator.Contracts\DistanceCalculator.Contracts.csproj", "{767B0AAD-11B1-4924-8902-8F935436F8A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9093A25F-C23C-41CB-8754-AB735E53F399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9093A25F-C23C-41CB-8754-AB735E53F399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9093A25F-C23C-41CB-8754-AB735E53F399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9093A25F-C23C-41CB-8754-AB735E53F399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74A3E55-503C-4151-B7B4-A3F8A30A11AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74A3E55-503C-4151-B7B4-A3F8A30A11AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74A3E55-503C-4151-B7B4-A3F8A30A11AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74A3E55-503C-4151-B7B4-A3F8A30A11AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D6E842-10B8-4CA5-97B5-019574262476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D6E842-10B8-4CA5-97B5-019574262476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D6E842-10B8-4CA5-97B5-019574262476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D6E842-10B8-4CA5-97B5-019574262476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E6E655-F845-4641-8505-42DA9D323844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E6E655-F845-4641-8505-42DA9D323844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E6E655-F845-4641-8505-42DA9D323844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E6E655-F845-4641-8505-42DA9D323844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615A25DD-14C2-42EE-B3A4-34C86F750D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615A25DD-14C2-42EE-B3A4-34C86F750D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615A25DD-14C2-42EE-B3A4-34C86F750D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615A25DD-14C2-42EE-B3A4-34C86F750D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77FE8B5-7D09-4D0F-84FB-9C2E7026B3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77FE8B5-7D09-4D0F-84FB-9C2E7026B3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77FE8B5-7D09-4D0F-84FB-9C2E7026B3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77FE8B5-7D09-4D0F-84FB-9C2E7026B3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF1D535-15C0-4AC0-8F07-CB6C3E49B9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF1D535-15C0-4AC0-8F07-CB6C3E49B9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF1D535-15C0-4AC0-8F07-CB6C3E49B9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF1D535-15C0-4AC0-8F07-CB6C3E49B9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021325CB-30A2-4733-B90A-A86F7E6AA16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021325CB-30A2-4733-B90A-A86F7E6AA16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021325CB-30A2-4733-B90A-A86F7E6AA16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021325CB-30A2-4733-B90A-A86F7E6AA16C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767B0AAD-11B1-4924-8902-8F935436F8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767B0AAD-11B1-4924-8902-8F935436F8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767B0AAD-11B1-4924-8902-8F935436F8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767B0AAD-11B1-4924-8902-8F935436F8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9093A25F-C23C-41CB-8754-AB735E53F399} = {F743575D-6920-4468-B32C-E81E46A678DD}
+		{E74A3E55-503C-4151-B7B4-A3F8A30A11AF} = {F743575D-6920-4468-B32C-E81E46A678DD}
+		{D8D6E842-10B8-4CA5-97B5-019574262476} = {F743575D-6920-4468-B32C-E81E46A678DD}
+		{09E6E655-F845-4641-8505-42DA9D323844} = {D40DA6E8-5092-4234-AC05-59F8C109A857}
+		{615A25DD-14C2-42EE-B3A4-34C86F750D9F} = {D40DA6E8-5092-4234-AC05-59F8C109A857}
+		{F77FE8B5-7D09-4D0F-84FB-9C2E7026B3B4} = {9F5A6CE3-0CD1-4272-B686-9AC9FEF3CE01}
+		{3AF1D535-15C0-4AC0-8F07-CB6C3E49B9E2} = {9F5A6CE3-0CD1-4272-B686-9AC9FEF3CE01}
+		{021325CB-30A2-4733-B90A-A86F7E6AA16C} = {9F5A6CE3-0CD1-4272-B686-9AC9FEF3CE01}
+		{767B0AAD-11B1-4924-8902-8F935436F8A1} = {9F5A6CE3-0CD1-4272-B686-9AC9FEF3CE01}
+	EndGlobalSection
+EndGlobal
